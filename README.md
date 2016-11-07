@@ -1,6 +1,32 @@
-# Polymer App Toolbox - Starter Kit
+## My Polymer app
 
-[![Build Status](https://travis-ci.org/PolymerElements/polymer-starter-kit.svg?branch=master)](https://travis-ci.org/PolymerElements/polymer-starter-kit)
+Polymer guide: [polymer-project.org/1.0/start/toolbox/set-up](https://www.polymer-project.org/1.0/start/toolbox/set-up)
+
+    $ polymer serve
+
+My Polymer App is hosted on [Firebase](https://firebase.google.com): [my-polymer-app-2b88f.firebaseapp.com](https://my-polymer-app-2b88f.firebaseapp.com/)
+
+    $ polymer build
+
+    $ firebase deploy
+
+Run tests [Polymer/web-component-tester](https://github.com/Polymer/web-component-tester) (Requires JAVA)
+
+    $ polymer test
+
+----
+
+### Build on the Polymer App Toolbox - [Starter Kit](https://travis-ci.org/PolymerElements/polymer-starter-kit)
+
+Github: [Polymer/polymer-cli](https://github.com/Polymer/polymer-cli)
+
+    $ npm install -g polymer-cli
+    $ mkdir my-app
+    $ cd my-app
+    $ polymer init starter-kit
+    $ polymer serve --open
+
+----
 
 This template is a starting point for building apps using a drawer-based
 layout. The layout is provided by `app-layout` elements.
