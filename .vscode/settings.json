@@ -1,0 +1,9 @@
+// Place your project settings in this file to overwrite the user and default settings
+{
+
+// Files
+	"files.associations": {
+		"*.html": "polymer"
+	}
+
+}
