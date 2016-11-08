@@ -4,7 +4,11 @@ Polymer guide: [polymer-project.org/1.0/start/toolbox/set-up](https://www.polyme
 
     $ polymer serve
 
-My Polymer App is hosted on [Firebase](https://firebase.google.com): [my-polymer-app-2b88f.firebaseapp.com](https://my-polymer-app-2b88f.firebaseapp.com/)
+local: [localhost:8080](http://localhost:8080/)
+
+External (mobile): [**.ngrok.io](http://subdomain.ngrok.io/) (replace with your ngrok subdomain)
+
+Production: My Polymer App is hosted on [Firebase](https://firebase.google.com): [my-polymer-app-2b88f.firebaseapp.com](https://my-polymer-app-2b88f.firebaseapp.com/)
 
     $ polymer build
 
@@ -21,6 +25,10 @@ The polymer-CLI project has not yet made support for browser-sync. [Issue #230](
 Start `$ polymer serve` and `$ npm run watch` by the following command:
 
     $ npm run dev
+
+local: [localhost:3000](http://localhost:3000/)
+
+External (mobile): [192.168.43.18:3000](http://192.168.43.18:3000/)
 
 ----
 ----
