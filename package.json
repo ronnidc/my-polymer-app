@@ -1,0 +1,31 @@
+{
+  "name": "my-polymer-app",
+  "version": "1.0.0",
+  "description": "Playing with polymer",
+  "main": "service-worker.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "polymer serve & npm run watch",
+    "test": "polymer test",
+    "watch": "browser-sync start --proxy localhost:8080 --files 'src/*.html, src/*.js, images/*' "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronnidc/my-polymer-app.git"
+  },
+  "keywords": [
+    "polymer",
+    "frontend"
+  ],
+  "author": "Ronni Dyrholm Chidekel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronnidc/my-polymer-app/issues"
+  },
+  "homepage": "https://my-polymer-app-2b88f.firebaseapp.com/",
+  "devDependencies": {
+    "browser-sync": "^2.17.5"
+  }
+}

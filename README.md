@@ -1,4 +1,4 @@
-## My Polymer app
+# My Polymer app
 
 Polymer guide: [polymer-project.org/1.0/start/toolbox/set-up](https://www.polymer-project.org/1.0/start/toolbox/set-up)
 
@@ -14,7 +14,18 @@ Run tests [Polymer/web-component-tester](https://github.com/Polymer/web-componen
 
     $ polymer test
 
+## Support for browser-sync
+
+The polymer-CLI project has not yet made support for browser-sync. [Issue #230](https://github.com/Polymer/polymer-cli/issues/230). In the meantime we can use npm browser-sync:
+
+Start `$ polymer serve` and `$ npm run watch` by the following command:
+
+    $ npm run dev
+
 ----
+----
+
+
 
 ### Build on the Polymer App Toolbox - [Starter Kit](https://travis-ci.org/PolymerElements/polymer-starter-kit)
 
