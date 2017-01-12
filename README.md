@@ -1,5 +1,10 @@
 # My Polymer app
 
+[![Code Climate](https://codeclimate.com/github/ronnidc/my-polymer-app/badges/gpa.svg)](https://codeclimate.com/github/ronnidc/my-polymer-app)
+[![Test Coverage](https://codeclimate.com/github/ronnidc/my-polymer-app/badges/coverage.svg)](https://codeclimate.com/github/ronnidc/my-polymer-app/coverage)
+[![Issue Count](https://codeclimate.com/github/ronnidc/my-polymer-app/badges/issue_count.svg)](https://codeclimate.com/github/ronnidc/my-polymer-app)
+
+
 Polymer guide: [polymer-project.org/1.0/start/toolbox/set-up](https://www.polymer-project.org/1.0/start/toolbox/set-up)
 
     $ polymer serve
